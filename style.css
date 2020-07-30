@@ -1,0 +1,149 @@
+
+		.header{
+			width: 98%;
+			display: flex;
+			flex-direction: row;
+			
+			margin: 1%;
+			border: 2px solid black;
+			box-shadow: 3px 3px 3px 3px grey;
+			height: 150px;
+			
+		}
+		.name{
+			width: 50%;
+			text-align: right;
+		}
+		.logo1 img{
+			width: 15%;
+			height: 140px;
+
+			
+		}
+		.logo{
+		   width: 96%;
+		   display: flex;
+		   flex-direction: row;
+		   padding: 13px;
+		   margin: 1%;
+		   border: 3px solid black;
+		  
+		   
+		   
+		   
+		}
+		
+		.logo img{
+			
+			width: 100%;
+			height: 300px;
+			
+		}
+		
+	.flexcontainer{
+		width: 98%;
+		display: flex;
+		flex-direction: row;
+		margin: 1%;
+		
+	}
+	.models{
+		width: 30%;
+		margin: 1%;
+		padding: 1%;
+		border:2px solid #ccc;
+		border-radius: 5%;
+	}
+	.models img{
+		width: 100%;
+		height: 37%;
+		border-radius: 5%;
+	}
+	.footer{
+		width: 96%;
+		border: 1px solid black;
+		
+		margin-left: 2%;
+		height: 40px;
+		text-align: center;
+		padding-top: 20px;
+		font-style: italic;
+		font-size: 20px;
+		background-color: black;
+		color: white;
+		
+	}
+	
+	
+  @media only screen and (min-width: 300px) and (max-width: 767px){
+  	    .header{
+  	    	flex-direction: column;
+  	    	text-align: center;
+  	    	height: 320px;
+  	    } 
+  	    .name{
+  	    	width: 96%;
+  	    	padding: 2%;
+  	    }
+  	    .logo1 img{
+  	    	width: 100%;
+  	    	height: 200px;
+
+  	    }
+  	    .name{
+  	    	text-align: center;
+  	    }
+  	    .logo{
+  	    	
+  	    	width: 95%;
+  	    	margin: 1%;
+  	    	padding: 1%;
+  	    	height: 2%;
+
+  	    }
+  	    .logo img{
+  	    	height: 100px;
+  	    }
+		.flexcontainer{
+			flex-direction: column;
+		}
+		.models{
+			width: 96%;
+			padding: 2%;
+			
+		}
+		.models img{
+			border-radius: 30px;
+
+		}
+		.footer{
+			padding: 1%;
+
+		}
+	} 
+	@media only screen and (min-width: 768px) and (max-width: 1023px){
+		.flexcontainer{
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+   	.models{
+   		flex-wrap: wrap;
+   		justify-content: space-around;
+   		width: 40%;
+   		
+   	}
+   	.logo{
+		   width: 94%;
+		   display: flex;
+		   flex-direction: row;
+		   padding: 13px;
+		   margin: 1%;
+		   border: 3px solid black;
+		  
+		   
+		   
+		   
+		}
+   	
+   }
+ 
